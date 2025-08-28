@@ -1,0 +1,7 @@
+PROGRAM PRUEBA1  
+
+    COLORFONDO BLANCO    
+    COLORLAPIZ AZUL
+    REPITE 4 [ AV 500 GD 90 ]  
+    
+      

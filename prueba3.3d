@@ -1,0 +1,19 @@
+PROGRAM PRUEBA3
+
+    VISTA_GABINETE
+    COLORFONDO BLANCO    
+
+    COLORLAPIZ ROJO
+    AV 500 
+    CENTRO
+
+    GD 90
+    COLORLAPIZ AZUL
+    AV 500 
+    CENTRO
+
+    CA 90
+    COLORLAPIZ VERDE
+    AV 500 
+    
+      

@@ -1,0 +1,45 @@
+PROGRAM PRUEBA4
+
+PARA EJES
+    COLORLAPIZ ROJO
+    AV 500 
+    CENTRO
+
+    GD 90
+    COLORLAPIZ AZUL
+    AV 500 
+    CENTRO
+
+    CA 90
+    COLORLAPIZ VERDE
+    AV 500 
+FIN
+
+
+PARA CUADRADO
+    REPITE 4 [ AV 100 GD 90]
+FIN 
+
+PARA PRISMA
+    CB 90
+    COLORLAPIZ AZUL
+
+    REPITE 300 [
+        CALL CUADRADO
+        SL
+        CA 90
+        AV 1
+        CB 90
+        BL
+    ]
+FIN
+
+
+    VISTA_GABINETE
+    COLORFONDO BLANCO        
+
+    CALL EJES
+    CENTRO
+    CALL PRISMA
+    
+      

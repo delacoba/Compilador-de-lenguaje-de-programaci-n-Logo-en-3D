@@ -1,0 +1,9 @@
+PROGRAM PRUEBA2
+
+    COLORFONDO BLANCO    
+    COLORLAPIZ ROJO
+    GD 30 AV 500 
+    GI 60 RE 500
+    GI 60 AV 500
+    
+      
