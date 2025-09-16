@@ -35,7 +35,7 @@ class programa(base):
     def generar(self, tabulaciones):   
         aux=""
 
-        #Generamos el código previo a nuestro programa. Incluye los requires, clases, constantes y funciones necesarias
+        #Generamos el código previo a nuestro programa. Incluye los imports, clases, constantes y funciones necesarias
         aux += super().generar(tabulaciones, generador.generarCodigoPrevio())                  
 
         #Generamos la funcion que hace el programa que estamos compilando
